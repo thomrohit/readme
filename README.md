@@ -1,6 +1,6 @@
 # Implement a simple key-value HTTP CRUD API service. 
 
-A Simple SpringBoot Maven project that perfoms the basic CRUD opertions such as GET,POST and DELETE, the data is stored/presisted in a objects.json file which is hosted in a volume.
+A Simple SpringBoot Maven project that performs the basic CRUD operations such as GET,POST and DELETE, the data is stored/persisted in a objects.json file which is hosted in a volume.
 
 ## DevOps requirements
 
@@ -28,7 +28,7 @@ All scripts to run Kuberentes files are located under **.k8s**
 ![image](https://user-images.githubusercontent.com/37391853/150505929-88d01921-360b-4dbe-aa33-1943e4f8911f.png)
 
 
-When the developer makes changes to the code and pushes it into GitHub, a Jenkins pipeline job is triggered follwing Code checkout, Maven Build, Docker Build and Push into Docker Hub and finally deploy in GCP using GKE(Google Kuberenetes Engine).
+When the developer makes changes to the code and pushes it into GitHub, a Jenkins pipeline job is triggered following Code checkout, Maven Build, Docker Build and Push into Docker Hub and finally deploy in GCP using GKE(Google Kuberenetes Engine).
 
 ## Integrating Jenkins with GKE
 
@@ -62,7 +62,7 @@ To create the json secret file to connect to GKE from Jenkins<br/>
 
 copy the key  and add it to **Google Service Account from private key credential** in Jenkins<br/>
 
-For more information/referneces in detail:
+For more information/references in detail:
 - https://cloud.google.com/architecture/jenkins-on-kubernetes-engine-tutorial
 - https://cloud.google.com/iam/docs/creating-managing-service-accounts
 - https://cloud.google.com/iam/docs/creating-managing-service-account-keys
